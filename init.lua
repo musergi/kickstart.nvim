@@ -782,7 +782,7 @@ require('lazy').setup({
     priority = 1000, -- Make sure to load this before all the other start plugins.
     init = function()
       require('catppuccin').setup {
-        flavour = 'latte',
+        flavour = 'mocha',
       }
       -- Load the colorscheme here.
       vim.cmd.colorscheme 'catppuccin'
